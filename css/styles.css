@@ -610,10 +610,6 @@ section footer {
   padding: 0;
 }
 
-.more, .more-1, .more-1-element {
-  border: 0.1px solid red;
-}
-
 .shareIconsSvg:hover {
   border: 1px solid rgb(204, 204, 204);
   background-color: white;
