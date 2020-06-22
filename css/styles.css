@@ -661,7 +661,7 @@ a {
   color: black;
 }
 
-header+time {
+header+.time {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 13px;
   font-stretch: 100%;
