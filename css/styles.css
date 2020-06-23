@@ -334,7 +334,7 @@ svg {
   margin-left: 8px;
 }
 
-.mainTextDiv p {
+.mainTextDiv p, .workaroundInexplainableLinterError {
   margin: 15px 0;
 }
 
@@ -582,7 +582,7 @@ section footer {
   border-top: 4px solid rgb(226, 226, 226);
 }
 
-.footer header {
+.headerFromFooter {
   height: 44px;
   margin-bottom: 10px;
 }
@@ -593,7 +593,7 @@ section footer {
   margin-bottom: 10px;
 }
 
-.footer header::after {
+.headerFromFooter::after {
   content: "";
   clear: both;
 }
