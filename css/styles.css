@@ -332,7 +332,8 @@ svg {
   margin-left: 8px;
 }
 
-.mainTextDiv p, .workaroundInexplainableLinterError {
+.mainTextDiv p,
+.workaroundInexplainableLinterError {
   margin: 15px 0;
 }
 
