@@ -616,7 +616,7 @@ section footer {
   text-transform: capitalize;
   font-weight: 500px;
   font-size: 13px;
-  height: 23px
+  height: 23px;
 }
 
 .links-container:last-child {
