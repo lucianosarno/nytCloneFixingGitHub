@@ -24,6 +24,10 @@ html {
   margin-bottom: 500px;
 }
 
+section img {
+  width: 100%;
+}
+
 body {
   font-family: 'Libre Franklin', Helvetica, sans-serif;
 }
@@ -32,7 +36,7 @@ main {
   margin: auto;
 }
 
-main>h1 {
+main > h1 {
   color: rgb(18, 18, 18);
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
@@ -47,11 +51,8 @@ main>h1 {
 }
 
 svg {
-  width: min-content;
-  /* height: min-content; */
+  width: min-content; /* height: min-content; */
 }
-
-
 
 .flex {
   display: flex;
@@ -391,6 +392,7 @@ section footer {
   display: block;
   margin: 0 auto;
   margin-top: 43px;
+  border: 0;
 }
 
 .video-figc {
@@ -501,9 +503,7 @@ section footer {
   width: 100%;
 }
 
-section img {
-  width: 100%;
-}
+
 
 .more-1-element span {
   font-size: 10px;
@@ -527,10 +527,7 @@ section img {
 }
 
 .more-2 {
-  width: 314px;
-
-/* height: 100px; */
-
+  width: 314px; /* height: 100px; */
   margin-left: 30px;
   float: right;
 }
