@@ -1,3 +1,58 @@
+h3 {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 20px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 700;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+img {
+  width: 1.3rem;
+}
+
+html {
+  font-size: 62.5%;
+  margin-bottom: 500px;
+}
+
+body {
+  font-family: 'Libre Franklin', Helvetica, sans-serif;
+}
+
+main {
+  margin: auto;
+}
+
+main>h1 {
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-weight: 700;
+  font-style: italic;
+  max-width: 600px;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  font-stretch: 100%;
+  line-height: 48px;
+}
+
+svg {
+  width: min-content;
+  /* height: min-content; */
+}
+
+
+
 .flex {
   display: flex;
 }
@@ -151,22 +206,22 @@
   display: block;
   left: 15px;
   position: absolute;
-  width: 0px;
+  width: 0;
   border-color: rgb(102, 102, 102) transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 8px;
+  border-width: 6px 0 0 8px;
 }
 
-.commentsI:after {
+.commentsI::after {
   bottom: -6px;
   content: "";
   display: block;
   left: 16px;
   position: absolute;
-  width: 0px;
+  width: 0;
   border-color: rgb(255, 255, 255) transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 6px;
+  border-width: 6px 0 0 6px;
 }
 
 .commentsButton {
@@ -191,7 +246,7 @@
   border-color: initial;
   border-image: initial;
   overflow: visible;
-  padding: 0px 0px 4px;
+  padding: 0 0 4px;
 }
 
 .mainTextDiv {
@@ -221,8 +276,7 @@
   margin: 25px 0;
 }
 
-
-/* Editors Aside*/
+/* Editors Aside */
 
 .editorsAside {
   position: absolute;
@@ -233,7 +287,6 @@
 
 .editors__header {
   color: black;
-  font-family: helvetica;
   font-size: 14px;
   line-height: 14px;
   font-weight: 700;
@@ -294,7 +347,6 @@
   line-height: 18px;
 }
 
-
 /* Illustration block */
 
 .sectionImageDiv {
@@ -338,7 +390,7 @@ section footer {
 .video {
   display: block;
   margin: 0 auto;
-  margin-top: 43px
+  margin-top: 43px;
 }
 
 .video-figc {
@@ -389,11 +441,11 @@ section footer {
   text-decoration: underline;
 }
 
-.mainTextEndFooter>p {
+.mainTextEndFooter > p {
   margin-bottom: 25px;
 }
 
-.mainTextEndFooter>.btn {
+.mainTextEndFooter > .btn {
   width: 330px;
   height: 36px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -405,13 +457,12 @@ section footer {
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: 600;
-  height: 36px;
   letter-spacing: 0.65px;
   line-height: 24px;
   padding: 5px 0;
 }
 
-.mainTextEndFooter>.commonIconsNav {
+.mainTextEndFooter > .commonIconsNav {
   width: 156px;
   display: flex;
   justify-content: space-between;
@@ -446,17 +497,21 @@ section footer {
   margin-top: 15px;
 }
 
-.more-1-element>img {
+.more-1-element > img {
+  width: 100%;
+}
+
+section img {
   width: 100%;
 }
 
 .more-1-element span {
   font-size: 10px;
   display: block;
-  color: rgb(153, 153, 153)
+  color: rgb(153, 153, 153);
 }
 
-.more-1-element>span:first-of-type {
+.more-1-element > span:first-of-type {
   text-align: right;
   width: 100%;
 }
@@ -473,7 +528,9 @@ section footer {
 
 .more-2 {
   width: 314px;
-  /* height: 100px; */
+
+/* height: 100px; */
+
   margin-left: 30px;
   float: right;
 }
@@ -551,6 +608,10 @@ section footer {
   font-weight: 500px;
   font-size: 13px;
   height: 23px
+}
+
+li {
+  list-style: none;
 }
 
 .links-container:last-child {
@@ -675,63 +736,3 @@ header+.time {
   line-height: 16px;
 }
 
-button {
-  border: none;
-  background-color: transparent;
-}
-
-img {
-  width: 1.3rem;
-}
-
-html {
-  font-size: 62.5%;
-  margin-bottom: 500px;
-}
-
-body {
-  font-family: 'Libre Franklin', Helvetica, sans-serif;
-}
-
-main {
-  margin: auto;
-}
-
-main>h1 {
-  color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-  font-weight: 700;
-  font-style: italic;
-  max-width: 600px;
-  font-size: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem;
-  font-stretch: 100%;
-  line-height: 48px;
-}
-
-svg {
-  width: min-content;
-  /* height: min-content; */
-}
-
-h3 {
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
-  font-size: 20px;
-  font-stretch: 100%;
-  font-style: normal;
-  font-variant-caps: normal;
-  font-variant-east-asian: normal;
-  font-variant-ligatures: normal;
-  font-variant-numeric: normal;
-  font-weight: 700;
-}
-
-section img {
-  width: 100%;
-}
-
-li {
-  list-style: none;
-}
