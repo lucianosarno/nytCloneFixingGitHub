@@ -50,7 +50,7 @@ p a {
   color: rgb(50, 104, 145);
 }
 
-main>h1 {
+main  >  h1 {
   color: rgb(18, 18, 18);
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
@@ -65,8 +65,7 @@ main>h1 {
 }
 
 svg {
-  width: min-content;
-  /* height: min-content; */
+  width: min-content; /* height: min-content; */
 }
 
 .flex {
@@ -292,7 +291,6 @@ svg {
   margin: 25px 0;
 }
 
-
 /* Editors Aside */
 
 .editorsAside {
@@ -363,7 +361,6 @@ svg {
   color: rgb(102, 102, 102);
   line-height: 18px;
 }
-
 
 /* Illustration block */
 
@@ -460,11 +457,11 @@ section footer {
   text-decoration: underline;
 }
 
-.mainTextEndFooter>p {
+.mainTextEndFooter > p {
   margin-bottom: 25px;
 }
 
-.mainTextEndFooter>.btn {
+.mainTextEndFooter > .btn {
   width: 330px;
   height: 36px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -481,7 +478,7 @@ section footer {
   padding: 5px 0;
 }
 
-.mainTextEndFooter>.commonIconsNav {
+.mainTextEndFooter > .commonIconsNav {
   width: 156px;
   display: flex;
   justify-content: space-between;
@@ -516,7 +513,7 @@ section footer {
   margin-top: 15px;
 }
 
-.more-1-element>img {
+.more-1-element > img {
   width: 100%;
 }
 
@@ -526,7 +523,7 @@ section footer {
   color: rgb(153, 153, 153);
 }
 
-.more-1-element>span:first-of-type {
+.more-1-element > span:first-of-type {
   text-align: right;
   width: 100%;
 }
@@ -552,8 +549,7 @@ section footer {
 }
 
 .more-2 {
-  width: 314px;
-  /* height: 100px; */
+  width: 314px; /* height: 100px; */
   margin-left: 30px;
   float: right;
 }
