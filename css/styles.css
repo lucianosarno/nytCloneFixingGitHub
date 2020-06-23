@@ -24,6 +24,10 @@ html {
   margin-bottom: 500px;
 }
 
+li {
+  list-style: none;
+}
+
 section img {
   width: 100%;
 }
@@ -34,6 +38,16 @@ body {
 
 main {
   margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
 }
 
 main > h1 {
@@ -516,6 +530,16 @@ section footer {
   width: 100%;
 }
 
+.more-2 h3 {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 15px 0 15px 0;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 45px;
+  line-height: 22px;
+}
+
 .more-1-element a h3 {
   font-size: 18px;
   line-height: 22px;
@@ -534,16 +558,6 @@ section footer {
 
 .more-2 h3:first-of-type {
   margin-top: 15px;
-}
-
-.more-2 h3 {
-  border-top: 1px solid rgb(226, 226, 226);
-  padding: 15px 0 15px 0;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  height: 45px;
-  line-height: 22px;
 }
 
 .more-1__title {
@@ -605,10 +619,6 @@ section footer {
   font-weight: 500px;
   font-size: 13px;
   height: 23px
-}
-
-li {
-  list-style: none;
 }
 
 .links-container:last-child {
@@ -680,7 +690,7 @@ li {
   display: table;
 }
 
-.advertisementDiv:before {
+.advertisementDiv::before {
   display: block;
   margin: auto;
   padding-top: 19px;
@@ -689,7 +699,7 @@ li {
   border-top: 1px solid rgb(204, 204, 204);
 }
 
-.advertisementDiv:after {
+.advertisementDiv::after {
   display: block;
   margin: auto;
   padding-bottom: 19px;
@@ -709,17 +719,7 @@ section footer:before {
   border-top: 1px solid black;
 }
 
-p a {
-  text-decoration: none;
-  color: rgb(50, 104, 145);
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-header+.time {
+header .time {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 13px;
   font-stretch: 100%;
@@ -732,4 +732,3 @@ header+.time {
   height: 16px;
   line-height: 16px;
 }
-
