@@ -65,7 +65,7 @@ main > h1 {
 }
 
 svg {
-  width: min-content; /* height: min-content; */
+  width: min-content;
 }
 
 .flex {
@@ -80,8 +80,13 @@ svg {
 
 .header__container {
   margin: 0 2.6rem;
-  padding: 0.7rem 1.5rem 0.4rem 1.5rem;
+  padding: 0.7rem 150px 0.4rem 1.5rem;
+  margin: 0;
   align-items: center;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
 }
 
 .header__button {
@@ -291,8 +296,6 @@ svg {
   margin: 25px 0;
 }
 
-/* Editors Aside */
-
 .editorsAside {
   position: absolute;
   right: 10vw;
@@ -362,8 +365,6 @@ svg {
   color: rgb(102, 102, 102);
   line-height: 18px;
 }
-
-/* Illustration block */
 
 .sectionImageDiv {
   display: flex;
@@ -550,7 +551,7 @@ section footer {
 }
 
 .more-2 {
-  width: 314px; /* height: 100px; */
+  width: 314px;
   margin-left: 30px;
   float: right;
 }
