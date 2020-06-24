@@ -1,8 +1,8 @@
 # New York Times Clone
 
-> M=Dawood and Luciano 3st project in HTML&CSS3 module.
+> Mohamed Dawood and Luciano 3st project in HTML&CSS3 module.
 
-![screenshot](assets/screenshot.png)
+![screenshot](screenshot.png)
 
 In this task we were required to create a clone of a NYT article.
 
