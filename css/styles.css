@@ -290,45 +290,6 @@ main > h1 {
   line-height: 30px;
 }
 
-.fixed-at-end {
-  width: 100%;
-  height: 50px;
-  border-top: 1px solid black;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-}
-
-.fixed-at-end > div {
-  height: 100%;
-  margin-left: 16rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.fixed-at-end > div > p {
-  font-size: 1.4rem;
-}
-
-.fixed-at-end > div > div {
-  display: flex;
-  margin-left: 250px;
-}
-
-.fixed-at-end > div > div > a {
-  font-weight: 800;
-  letter-spacing: 1px;
-  margin-right: 10px;
-}
-
-.fixed-at-end > div > div > svg {
-  height: 15px;
-  width: 15px;
-  transform: rotate(-90deg);
-}
-
 .advertisementDiv {
   color: rgb(51, 51, 51);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -724,6 +685,46 @@ section footer {
 * {
   margin: 0;
   padding: 0;
+}
+
+
+.fixed-at-end {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+
+.fixed-at-end > div {
+  height: 100%;
+  margin-left: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed-at-end > div > p {
+  font-size: 1.4rem;
+}
+
+.fixed-at-end > div > div {
+  display: flex;
+  margin-left: 250px;
+}
+
+.fixed-at-end > div > div > a {
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.fixed-at-end > div > div > svg {
+  height: 15px;
+  width: 15px;
+  transform: rotate(-90deg);
 }
 
 .shareIconsSvg:hover {
