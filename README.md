@@ -2,7 +2,7 @@
 
 > M=Dawood and Luciano 3st project in HTML&CSS3 module.
 
-![screenshot](./#)
+![screenshot](assets/screenshot.png)
 
 In this task we were required to create a clone of a NYT article.
 
@@ -13,7 +13,7 @@ In this task we were required to create a clone of a NYT article.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/lucianosarno/nytCloneFixingGitHub/6e46f0d3cd83a8b470b7d522e7e07cbc39be2168/index.html)
+[Live Demo Link](https://rawcdn.githack.com/lucianosarno/nytCloneFixingGitHub/a6eea8da1cfb45907f6077d36aeba8eb40b740c2/index.html)
 
 ## Authors
 
