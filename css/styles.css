@@ -81,7 +81,6 @@ main > h1 {
 }
 
 .header__container {
-  margin: 0 2.6rem;
   padding: 0.7rem 150px 0.4rem 1.5rem;
   margin: 0;
   align-items: center;
@@ -331,13 +330,13 @@ main > h1 {
   width: 75px;
 }
 
-.svg{
+.svg {
   width: 250px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.backToHome{
+.backToHome {
   float: right;
   margin-top: 20px;
 }
@@ -686,7 +685,6 @@ section footer {
   margin: 0;
   padding: 0;
 }
-
 
 .fixed-at-end {
   width: 100%;
