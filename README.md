@@ -1,8 +1,8 @@
-# Embeding Videos Images
+# New York Times Clone
 
-> Luciano and Prabhakar 1st project in HTML&CSS3 module.
+> Mohamed Dawood and Luciano 3st project in HTML&CSS3 module.
 
-![screenshot](./#)
+![screenshot](screenshot.png)
 
 In this task we were required to create a clone of a NYT article.
 
@@ -13,7 +13,7 @@ In this task we were required to create a clone of a NYT article.
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://rawcdn.githack.com/lucianosarno/nytCloneFixingGitHub/a6eea8da1cfb45907f6077d36aeba8eb40b740c2/index.html)
 
 ## Authors
 
@@ -22,7 +22,7 @@ In this task we were required to create a clone of a NYT article.
 - Github: [@githubhandle](https://github.com/lucianosarno)
 - Linkedin: [linkedin](https://www.linkedin.com/in/luciano-soares-1343431b0/)
 
-👤 Mohamed Daewoo
+👤 Mohamed Dawood
 
 - Github: [@githubhandle](https://github.com/mohamedawood)
 - Twitter: [@twitterhandle](https://twitter.com/Mohamedawood8)
