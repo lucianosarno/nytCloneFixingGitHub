@@ -33,7 +33,7 @@ html {
   background-color: white;
 }
 
-.fixed-at-end>div {
+.fixed-at-end > div {
   height: 100%;
   margin-left: 16rem;
   display: flex;
@@ -41,22 +41,22 @@ html {
   justify-content: center;
 }
 
-.fixed-at-end>div>p {
+.fixed-at-end > div > p {
   font-size: 1.4rem;
 }
 
-.fixed-at-end>div>div {
+.fixed-at-end > div > div {
   display: flex;
   margin-left: 250px;
 }
 
-.fixed-at-end>div>div>a {
+.fixed-at-end > div > div > a {
   font-weight: 800;
   letter-spacing: 1px;
   margin-right: 10px;
 }
 
-.fixed-at-end>div>div>svg {
+.fixed-at-end > div > div > svg {
   height: 15px;
   width: 15px;
   transform: rotate(-90deg);
