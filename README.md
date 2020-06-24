@@ -13,7 +13,7 @@ In this task we were required to create a clone of a NYT article.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/lucianosarno/nytCloneFixingGitHub/e401340dac8e8786289f78a43a2eee03a48009cd/index.html)
+[Live Demo Link](https://rawcdn.githack.com/lucianosarno/nytCloneFixingGitHub/6e46f0d3cd83a8b470b7d522e7e07cbc39be2168/index.html)
 
 ## Authors
 

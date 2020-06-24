@@ -21,7 +21,45 @@ img {
 
 html {
   font-size: 62.5%;
-  margin-bottom: 500px;
+}
+
+.fixed-at-end {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+
+.fixed-at-end>div {
+  height: 100%;
+  margin-left: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed-at-end>div>p {
+  font-size: 1.4rem;
+}
+
+.fixed-at-end>div>div {
+  display: flex;
+  margin-left: 250px;
+}
+
+.fixed-at-end>div>div>a {
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.fixed-at-end>div>div>svg {
+  height: 15px;
+  width: 15px;
+  transform: rotate(-90deg);
 }
 
 li {
@@ -34,10 +72,12 @@ section img {
 
 body {
   font-family: 'Libre Franklin', Helvetica, sans-serif;
+  margin-bottom: 70px;
 }
 
 main {
   margin: auto;
+  margin-top: 70px;
 }
 
 a {
@@ -64,10 +104,6 @@ main > h1 {
   line-height: 48px;
 }
 
-svg {
-  width: min-content; /* height: min-content; */
-}
-
 .flex {
   display: flex;
 }
@@ -76,12 +112,22 @@ svg {
   height: 4.4rem;
   background-color: white;
   border-bottom: 1px solid #e2e2e2;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  top: 0;
+  left: 0;
 }
 
 .header__container {
   margin: 0 2.6rem;
-  padding: 0.7rem 1.5rem 0.4rem 1.5rem;
+  padding: 0.7rem 150px 0.4rem 1.5rem;
+  margin: 0;
   align-items: center;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
 }
 
 .header__button {
@@ -180,17 +226,20 @@ svg {
 
 .textStartHeader {
   display: block;
-  margin-left: 343.5px;
+  margin: auto;
   width: 600px;
+  height: 60px;
   margin-bottom: 25px;
+  position: relative;
 }
 
 .commonIconsNav {
-  float: right;
   width: 250px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .shareIconsSvg {
@@ -291,8 +340,6 @@ svg {
   margin: 25px 0;
 }
 
-/* Editors Aside */
-
 .editorsAside {
   position: absolute;
   right: 10vw;
@@ -321,6 +368,17 @@ svg {
 .editors__img {
   display: inline-block;
   width: 75px;
+}
+
+.svg{
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.backToHome{
+  float: right;
+  margin-top: 20px;
 }
 
 .editors__title {
@@ -362,8 +420,6 @@ svg {
   color: rgb(102, 102, 102);
   line-height: 18px;
 }
-
-/* Illustration block */
 
 .sectionImageDiv {
   display: flex;
@@ -550,7 +606,7 @@ section footer {
 }
 
 .more-2 {
-  width: 314px; /* height: 100px; */
+  width: 314px;
   margin-left: 30px;
   float: right;
 }
